@@ -1,7 +1,8 @@
 const gridSectionData = [{
     id: 0,
     section: 'visual',
-    attributes: [{
+    attributes: [
+      {
         id: 0,
         name: 'clarity',
         type: 'MULTI_CHOICE',
