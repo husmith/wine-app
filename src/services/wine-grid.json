@@ -1,0 +1,366 @@
+[
+  {
+    "id": 0,
+    "section": "visual",
+    "attributes": [
+      {
+        "id": 0,
+        "name": "clarity",
+        "options": [
+          {"id": 0, "name": "clear"},
+          {"id": 1, "name": "slight haze"},
+          {"id": 2, "name": "murky"},
+          {"id": 3, "name": "presence of sediment"},
+          {"id": 4, "name": "gas (bubbles)"}
+        ]
+      },
+      {
+        "id": 1,
+        "name": "brightness",
+        "options": [
+          {"id": 0, "name": "dull"},
+          {"id": 1, "name": "bright"},
+          {"id": 2, "name": "day bright"},
+          {"id": 3, "name": "star bright"},
+          {"id": 4, "name": "brilliant"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "intensity",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 3,
+        "name": "color",
+        "options": [
+          {
+            "id": 0,
+            "name": "red",
+            "description": "The color of red wines can indicate pH. More acidic wines with low pH tend to be on the bright cherry red end of the red spectrum, while those with higher pH are more purple/blue. Color will also vary with the level of initial extraction, presence or absence of oak during ageing, and level of sulfur dioxide additions (which can have bleaching effect/loss of color). It also tells you about the oxygen history of the wine: how much oxygen it has encountered during the winemaking process and ageing. Young wines are typically vividly, brightly coloured with fresh red and purple colours dominating. As they see more oxygen the colour shifts more in the orange/brick red spectrum, tending towards brown with excessive oxygen exposure. Cooler vintages tend to produce deeper coloured red wines.",
+            "options": [
+              {"id": 0, "name": "garnet"},
+              {"id": 1, "name": "ruby"},
+              {"id": 2, "name": "purple"}
+            ]
+          },
+          {
+            "id": 1,
+            "name": "white",
+            "options": [
+              {"id": 0, "name": "straw"},
+              {"id": 1, "name": "yellow"},
+              {"id": 2, "name": "gold"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "secondary colors",
+        "options": [
+          {
+            "id": 0,
+            "name": "red",
+            "options": [
+              {"id": 0, "name": "red base"},
+              {"id": 1, "name": "blue base"}
+            ]
+          },
+          {
+            "id": 1,
+            "name": "white",
+            "options": [{"id": 0, "name": "green"}, {"id": 1, "name": "copper"}]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "miniscus",
+        "options": [
+          {
+            "id": 0,
+            "name": "rim variation",
+            "options": [{"id": 0, "name": "yes"}, {"id": 1, "name": "no"}]
+          },
+          {"id": 1, "name": "width"},
+          {"id": 2, "name": "color variation"},
+          {"id": 3, "name": "clarity"}
+        ]
+      },
+      {
+        "id": 6,
+        "name": "viscosity",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "section": "nose/palate",
+    "attributes": [
+      {
+        "id": 0,
+        "name": "condition",
+        "options": [
+          {
+            "id": 0,
+            "name": "sound vs unsound",
+            "options": [
+              {"id": 0, "name": "sound"},
+              {"id": 1, "name": "unsound"}]
+          },
+          {
+            "id": 1,
+            "name": "clean vs faulty",
+            "options": [
+              {"id": 0, "name": "clean"},
+              {"id": 1, "name": "faulty"}]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "intensity",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "aroma vs boquet",
+        "options": [
+          {"id": 0, "name": "youthful aromas"},
+          {"id": 1, "name": "aged tertiary aromas"}
+        ]
+      },
+      {
+        "id": 3,
+        "name": "fruit",
+        "options": [
+          {"id": 0, "name": "class of fruits",
+            "options": [{"id": 0, "name": "citrus"}, {"id": 1, "name": "red fruits"}]
+          },
+          {"id": 1, "name": "fruit flavors"},
+          {"id": 2, "name": "style", "options": [{"id": 0, "name": "dried"}, {"id": 1, "name": "fresh"}]}
+        ]
+      },
+      {
+        "id": 4,
+        "name": "flower/herb/other",
+        "options": [
+          {"id": 0, "name": "flowers", "options": []},
+          {"id": 1, "name": "herbs", "options": []},
+          {"id": 2, "name": "vegetable", "options": []},
+          {"id": 3, "name": "botrytis"},
+          {"id": 4, "name": "oxidation"},
+          {"id": 5, "name": "lees"},
+          {"id": 6, "name": "MLF"}
+        ]
+      },
+      {
+        "id": 5,
+        "name": "earth",
+        "options": [
+          {
+            "id": 0,
+            "name": "yes/no", "options": [{"id": 0, "name": "yes"}, {"id": 1, "name": "no"}]},
+          {
+            "id": 1,
+            "name": "organic/inorganic",
+            "options": [{"id": 0, "name": "organic"}, {"id": 1, "name": "inorganic"}]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "oak",
+        "options": [
+          {
+            "id": 0,
+            "name": "yes/no", "options": [{"id": 0, "name": "yes"}, {"id": 1, "name": "no"}]},
+          {
+            "id": 1,
+            "name": "european/american",
+            "options": [{"id": 0, "name": "european"}, {"id": 1, "name": "american"}]
+          },
+          {
+            "id": 2,
+            "name": "new/neutral",
+            "options": [{"id": 0, "name": "new"}, {"id": 1, "name": "neutral"}]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "structure",
+    "attributes": [
+      {
+        "id": 0,
+        "name": "sweetness",
+        "options": [
+          {"id": 0, "name": "dry"},
+          {"id": 1, "name": "off-dry"},
+          {"id": 2, "name": "semi-sweet"},
+          {"id": 3, "name": "medium sweet"},
+          {"id": 4, "name": "sweet"}
+        ]
+      },
+      {
+        "id": 1,
+        "name": "body",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "acidity",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 3,
+        "name": "alcohol",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 4,
+        "name": "tannin",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 5,
+        "name": "complexity",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "high"}
+        ]
+      },
+      {
+        "id": 6,
+        "name": "length",
+        "options": [
+          {"id": 0, "name": "low"},
+          {"id": 1, "name": "medium-minus"},
+          {"id": 2, "name": "medium"},
+          {"id": 3, "name": "medium-plus"},
+          {"id": 4, "name": "long"}
+        ]
+      },
+      {
+        "id": 7,
+        "name": "balance",
+        "options": [{"id": 0, "name": "in balance"}, {"id": 1, "name": "out of balance"}]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "section": "initial conclusion",
+    "attributes": [
+      {
+        "id": 0,
+        "name": "quality",
+        "options": ["poor", "average", "good", "very good", "outstanding"]
+      },
+      {
+        "id": 1,
+        "name": "climate",
+        "options": [
+          {"id": 0, "name": "cool climate"},
+          {"id": 1, "name": "warm/moderate climate"},
+          {"id": 2, "name": "hot climate"}
+        ]
+      },
+      {
+        "id": 2,
+        "name": "origin and region",
+        "options": [{"id": 0, "name": "new world"}, {"id": 1, "name": "old world"}]
+      },
+      {
+        "id": 3,
+        "name": "possible age",
+        "options": [
+          {"id": 0, "name": "youthful"},
+          {"id": 1, "name": "middle aged"},
+          {"id": 2, "name": "old"}
+        ]
+      },
+      {"id": 4, "name": "grape/blend", "options": []}
+    ]
+  },
+  {
+    "id": 4,
+    "section": "conclusion",
+    "attributes": [
+      {
+        "id": 0,
+        "name": "quality",
+        "options": [
+          {"id": 0, "name": "regional wine"},
+          {"id": 1, "name": "village wine"},
+          {"id": 2, "name": "cru level"},
+          {"id": 3, "name": "aging classification (reserva)"}
+        ]
+      },
+      {
+        "id": 1,
+        "name": "grape/blend",
+        "options": [{"id": 0, "name": "variety"}, {"id": 1, "name": "main grape in blend"}]
+      },
+      {
+        "id": 2,
+        "name": "country and region",
+        "options": [
+          {"id": 0, "name": "country"},
+          {"id": 1, "name": "region"},
+          {"id": 2, "name": "subregion"}
+        ]
+      },
+      {"id": 3, "name": "vintage"}
+    ]
+  }
+]
